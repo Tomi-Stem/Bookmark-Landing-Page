@@ -586,14 +586,14 @@ footer {
 
 
 /* MOBILE DESIGN FOR MAX-WIDTH: 375PX */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
 
 body {
     text-align: center;
     }
 
 main {
-    width: 375px;
+    width: 100%;
     margin: 0;
 }
 
@@ -621,7 +621,7 @@ main {
 #nav2 {
     position: absolute;
     top: 0;
-    width: 375px;
+    width: 100%;
     height: 630px;
     background-color:  hsla(229, 31%, 21%, 0.9);
     padding: 35px;
@@ -653,8 +653,8 @@ main {
 
 .nav_links2 hr {
     color: white;
-    width: 295px;
-    margin-left: 5px;
+    width: 20.938rem;
+    margin-left: 0.438rem;
     border-bottom: 0;
 }
 
@@ -750,7 +750,7 @@ main {
 .tab_list {
     display: block;
     font-size: 27px;
-    width: 375px;
+    width: 100%;
     margin: 0;
     padding: 0;
     color: hsl(229, 8%, 60%);
@@ -804,7 +804,7 @@ main {
 .extentions-div {
     margin: 0;
     text-align: center;
-    width: 350;
+    width: 100%;
     margin-bottom: 850px;
 }
 
@@ -821,13 +821,13 @@ main {
 .extention {
     display: block;
     flex-direction: column;
-    width: 375px;
+    width: 100%;
 }
 
 .chrome, .firefox, .opera {
     padding-bottom: 30px;
     margin-top: 40px;
-    margin-left: 38px;
+    margin-left: 3.875rem;
 }
 
 /* FAQS */
@@ -847,8 +847,8 @@ main {
 }
 
 .FAQ hr {
-    width: 320px;
-    margin-left: 27.5px;
+    width: 22.5rem;
+    margin-left: 1.719rem;
 }
 
 .FAQ-line-1 {
@@ -856,7 +856,7 @@ main {
 }
 
 .dropdown-content {
-    margin: 0 0 0 30px !important;
+    margin: 0 0 0 3.438rem !important;
     text-align: left !important;
 }
 
@@ -922,13 +922,14 @@ footer {
     color: hsl(229, 8%, 60%);
     text-decoration: none;
     padding: 15px;
+    margin-left: 2.5rem;
 }
 
 .footer_img {
     display: flex;
     justify-content: space-between;
-    margin-left: 150px;
-    width: 80px;
+    margin-left: 11.25rem;
+    /* width: 80px; */
     margin-top: -20px;
     margin-bottom: 70px;
 }
